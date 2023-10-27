@@ -8,7 +8,7 @@ print("new list is : ", my_list_1)
 
 #eleminate 1st and last element using slice
 my_list_2 = my_list_1[1:-1]
-print("after eleminating 1st and last element : ", my_list_2)
+print("list after eleminating 1st and last element : ", my_list_2)
 
 #accessing list elements 
 first_element = my_list_1[0]
@@ -28,11 +28,11 @@ print("new list after deleting few elements is : ", my_list_1)
 my_list_3 = my_list[:]
 #append adds an element to the end of list
 my_list_3.append(15)
-#insert adds an element to the desired location in list
+#insert adds an element to the desired location in list-insert(location, value)
 my_list_3.insert(2,20)
 print("new list after adding elements is : ", my_list_3)
 
 #list comprehensions can be used to reduce lines of code
-#lets multiply each elemet in list my_list with 2 and create a new list
+#lets multiply each element in list my_list with 2 and create a new list
 my_list_4 = [i*2 for i in my_list]
 print("new list which is old list multiplied by 2 is : ", my_list_4)
